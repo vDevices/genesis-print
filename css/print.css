@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url("../../../themes/genesis/style.css");
+
+@media print {
+	#nav {
+		display:none;
+	}
+	#subnav {
+		display:none;
+	}
+}
