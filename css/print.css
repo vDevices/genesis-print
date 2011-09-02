@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* Import Genesis default *//* Print Style */
+@import ("../../themes/genesis/style.css");
+
+/* basic settings */
+body {
+	background-color: #ffffff;
+	background-image: none;
+	color: #000000;
+}
+/* do not display the navbar and subnav bar */
+#nav, #subnav {
+	display:none;
+}
+/* stripping content */
+.post-info .post-comments, .post-info .post-edit-link, #respond, #comments, #commentform, {
+ display: none;
+}
+/* add href after link */
+a:after {
+	content:" [" attr(href) "] ";
+}
+/* page break */ 
+.page-break {
+	height:0;
+	page-break-before:always;
+	margin:0;
+	border-top:none;
+}
+}
+/* avoid page break in content */
+#content {
+	page-break-before: avoid;
+	page-break-after: avoid;
+	page-break-inside:auto;
+}
+	
+
+/* CSS print rules http://www.w3.org/TR/css-print/ */
+@bottom-left-corner, @bottom-left, @bottom-center, @bottom-right, @bottom-right-corner {
+}
+/* add  margins on the paper */
+@page {
+ margin: 2cm 3cm;
+}
+@page:first {
+}
