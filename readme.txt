@@ -1,10 +1,11 @@
 === Plugin Name ===
-Contributors: ramoonus
+Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl
 Tags: genesis, genesiswp, print
 Requires at least: 3.0.0
 Tested up to: 3.2.1
 Stable tag: 1.1
+
 This plugin adds a printer-ready CSS file for the Genesis Theme Framework. 
 == Description ==
 This plugin adds a printer-ready CSS file for the Genesis Theme Framework.
