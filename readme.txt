@@ -30,6 +30,10 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.1.1 =
+* W3C Valid CSS
+* Proper loading of genesis/style.css without the use of a @import rule
+
 = 1.1 =
 * Removed CSS media queries - replaced with plain html
 * Stylesheet improvements
