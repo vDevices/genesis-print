@@ -3,7 +3,7 @@
 Plugin Name: Genesis Print Style
 Plugin URI: http://www.ramoonus.nl/wordpress/genesis-print/
 Description: This plugin adds a printer-ready CSS file for the Genesis Theme Framework.
-Version: 1.1.2
+Version: 1.1.3
 Author: Ramoonus
 Author URI: http://www.ramoonus.nl/
 */

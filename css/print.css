@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import("../../../themes/genesis/style.css");
+@import url("../../../themes/genesis/style.css");
+
 /* basic settings */
 body {
 	background-color: #ffffff;
