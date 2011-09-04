@@ -30,6 +30,9 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 1.1.2 =
+* Fixes messy behavior - thanks GaryJ
+
 = 1.1.1 =
 * W3C Valid CSS
 * Proper loading of genesis/style.css without the use of a @import rule
